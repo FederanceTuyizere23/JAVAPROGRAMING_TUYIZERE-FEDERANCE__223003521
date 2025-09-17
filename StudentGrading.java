@@ -39,7 +39,12 @@ public class StudentGrading {
 		                System.out.println("\nTotal students: " + totalStudents);
 		                System.out.println("Passed: " + passCount);
 		                System.out.println("Failed: " + (totalStudents - passCount));
+		 if (totalStudents > 0) {
+            double passRate = (passCount * 100.0) / totalStudents;
+            System.out.println("Class Pass Rate: " + passRate + "%");
+        }
 
 		                ST.close();
 		            }
 		        }
+
