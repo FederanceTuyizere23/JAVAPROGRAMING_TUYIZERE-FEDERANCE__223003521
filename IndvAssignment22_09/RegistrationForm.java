@@ -1,5 +1,6 @@
 package com.form;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
@@ -29,7 +30,7 @@ public class RegistrationForm implements ActionListener {
         frame.setTitle("User Registration");
         frame.setBounds(100, 100, 400, 300);
         frame.getContentPane().setLayout(null);
-        frame.getContentPane().setBackground(java.awt.Color.decode("#5DADE2")); // blue background
+        frame.getContentPane().setBackground(Color.blue);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
